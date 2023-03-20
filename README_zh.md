@@ -15,15 +15,15 @@ ChatGPT DiscordBot 是一個使用 OpenAI 的 GPT-3 語言模型來產生使用�
 
 - `DISCORD_BOT_TOKEN`：Discord 機器人Token。您可以從 [Discord Developer Portal](https://discord.com/developers/applications) 取得Token。
 - `OPENAI_API_KEY`：OpenAI API 金鑰。您可以從 OpenAI API 儀表板獲取此金鑰。
-- `ENABLE_IMAGE_COMMAND`：（可選）將此變數設置為 true 以啟用 /image 指令。將其設置為 false 或不設置以禁用 /image 指令。
-要設置這些環境變數，請在專案的根目錄中創建一個名為 .env 的文件，並添加以下行：
+- `ENABLE_IMAGE_COMMAND`：（可選）將此變數設置為 `true` 以啟用 `/image` 指令。將其設置為 `false` 或不設置以禁用 `/image` 指令。
+要設置這些環境變數，請在專案的根目錄中創建一個名為 `.env` 的文件，並添加以下行：
 
 ````
 DISCORD_BOT_TOKEN=<your_discord_bot_token_here>
 OPENAI_API_KEY=<your_openai_api_key_here>
 ENABLE_IMAGE_COMMAND=<true_or_false>
 ````
-您可以使用 dotenv 包將環境變數從 .env 文件加載到您的代碼中。
+這個專案使用 `dotenv` 將環境變數從 `.env` 文件加載到您的代碼中。
 
 ## 使用方法
 要運行機器人，在專案的根目錄中執行以下命令：

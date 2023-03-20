@@ -28,7 +28,7 @@ OPENAI_API_KEY=<your_openai_api_key_here>
 ENABLE_IMAGE_COMMAND=<true_or_false>
 ````
 
-You can use the `dotenv` package to load the environment variables from the `.env` file into your code.
+This project use `dotenv` package to load the environment variables from the `.env` file into your code.
 
 ## Usage
 
