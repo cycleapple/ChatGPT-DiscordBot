@@ -1,0 +1,8 @@
+# Ignore environment file
+.env
+
+# Ignore PyCharm folder
+.idea/
+
+# Ignore Python virtual environment
+venv/
