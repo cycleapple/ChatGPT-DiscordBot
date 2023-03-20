@@ -34,7 +34,7 @@ You can use the `dotenv` package to load the environment variables from the `.en
 To run the bot, execute the following command in your terminal while in the root directory of the project:
 
 ````
-python main.py
+python DiscordBot.py
 ````
 
 
@@ -43,3 +43,26 @@ Once the bot is running, you can interact with it by typing commands in your Dis
 - `/chat`: Have a chat with ChatGPT. Usage: `/chat [message]`
 - `/image`: Generate an image using the DALL-E API. Usage: `/image [prompt]`
 
+## OAuth2 URL Generation
+To add the bot to your Disco
+rd server, you need to generate an OAuth2 URL for the bot with the following scopes and permissions:
+
+Scopes:
+- bot
+- applications.commands
+
+Permissions:
+
+- Read Messages/View Channels
+- Send Message
+
+
+To generate an OAuth2 URL for the bot, follow these steps:
+
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and select your bot application.
+2. Click on the `OAuth2` tab on the left-hand menu.
+3. Under the `OAuth2 URL Generator` section, check the `bot` and `applications.commands` scopes.
+4. Under the `Bot Permissions` section, check the `Read Messages/View Channels` and `Send Message` permissions.
+5. Copy the generated URL and paste it into your web browser.
+6. Select the Discord server you want to add the bot to and authorize the bot.
+7. The bot should now be added to your server and ready to use.
