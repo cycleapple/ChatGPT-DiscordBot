@@ -1,3 +1,4 @@
+[English](https://github.com/cycleapple/ChatGPTBot) | 繁體中文
 ## ChatGPT DiscordBot
 ChatGPT DiscordBot 是一個使用 OpenAI 的 GPT-3 語言模型來產生使用者訊息回覆的 Python Discord 機器人。此機器人支援兩種斜線指令：`/chat` 與 `/image`。
 

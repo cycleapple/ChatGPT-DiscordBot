@@ -1,4 +1,4 @@
-English | [繁體中文]
+English | [繁體中文](https://github.com/cycleapple/ChatGPTBot/blob/main/README_zh.md)
 # ChatGPT DiscordBot
 
 ChatGPT DiscordBot is a Python-based Discord bot that uses OpenAI's GPT-3 language model to generate responses to user messages. The bot supports two slash commands: `/chat` and `/image`.
