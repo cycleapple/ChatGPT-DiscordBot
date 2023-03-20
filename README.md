@@ -1,3 +1,4 @@
+English | [繁體中文]
 # ChatGPT DiscordBot
 
 ChatGPT DiscordBot is a Python-based Discord bot that uses OpenAI's GPT-3 language model to generate responses to user messages. The bot supports two slash commands: `/chat` and `/image`.
@@ -15,7 +16,7 @@ ChatGPT DiscordBot is a Python-based Discord bot that uses OpenAI's GPT-3 langua
 
 To use ChatGPT DiscordBot, you need to set the following environment variables:
 
-- `DISCORD_BOT_TOKEN`: Discord bot token. You can obtain this token from the Discord Developer Portal.
+- `DISCORD_BOT_TOKEN`: Discord bot token. You can obtain this token from the [Discord Developer Portal](https://discord.com/developers/applications).
 - `OPENAI_API_KEY`: OpenAI API key. You can obtain this key from the OpenAI API Dashboard.
 - `ENABLE_IMAGE_COMMAND`: (Optional) Set this variable to `true` to enable the `/image` command. Set it to `false` or leave it unset to disable the `/image` command.
 
