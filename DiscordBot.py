@@ -42,16 +42,17 @@ async def on_ready():
 
 
 async def generate_response(prompt):
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        prompt=prompt,
-        temperature=0.7,
-        max_tokens=2560,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0
+    model = "gpt-3.5-turbo"
+    messages = [{"role": "user", "content": prompt}]
+    temperature = 0.7
+    max_tokens = 2560
+    response = openai.ChatCompletion.create(
+        model=model,
+        messages=messages,
+        temperature = temperature,
+        max_tokens = max_tokens
     )
-    return response.choices[0].text
+    return response.choices[0].message.content.strip()
 
 
 @bot.slash_command(name='chat', description="Have a chat with ChatGPT")
